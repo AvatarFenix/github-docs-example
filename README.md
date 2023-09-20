@@ -59,11 +59,23 @@ else
 end
 
 ```
+- **Image uploaded (drag and drop)**
+  
+`![Capture](https://github.com/AvatarFenix/github-docs-example/assets/145240919/0a9124be-4455-4324-85ef-355168bf09f5)`
+
 ![Capture](https://github.com/AvatarFenix/github-docs-example/assets/145240919/0a9124be-4455-4324-85ef-355168bf09f5)
 
-- Using HMTL to resize picture
-- img width="150" src="https://github.com/AvatarFenix/github-docs-example/assets/145240919/0a9124be-4455-4324-85ef-355168bf09f5" 
+- **Using HMTL to resize picture**
+  
+`<img width="150" src="https://github.com/AvatarFenix/github-docs-example/assets/145240919/0a9124be-4455-4324-85ef-355168bf09f5" />`
+
 <img width="150" src="https://github.com/AvatarFenix/github-docs-example/assets/145240919/0a9124be-4455-4324-85ef-355168bf09f5" />
+
+ - **Image directly from Github folder**
+
+`![Image directly from Github folder](/assets/Capture.PNG)`
+
+![Image directly from Github folder](/assets/Capture.PNG)
 
 - Good Cloud Engineers use Codeblocks for both Code and Erroes that appear inthe console.
 
@@ -76,6 +88,12 @@ example.rb:2:in `<main>': undefined local variable or method `undefined_variable
 ## Step 3 - Use Github Flavored Markdown Task List
 
 Github extends Markdown to have a list where you can check off items. [<sup>[1]</sup>](#external-references)
+
+```md
+- [x] Finish Step 1
+- [ ] Finish Step 2
+- [ ] Finish Step 3
+```
 
 - [x] Finish Step 1
 - [ ] Finish Step 2
